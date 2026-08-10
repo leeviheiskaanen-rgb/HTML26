@@ -1,0 +1,12 @@
+body {
+    background-color: palegreen;
+    font-size: 14px;
+}
+
+h1 {
+    color: crimson;
+    font-size: 2em;
+}
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
