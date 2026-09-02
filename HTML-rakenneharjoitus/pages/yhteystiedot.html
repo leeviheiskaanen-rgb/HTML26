@@ -15,20 +15,36 @@
 
     <h1>Yhteystiedot</h1>
 
-    <h2>Sähköposti</h2>
-    <a href="mailto:kuusamon.kuppila@example.com">Lähetä sähköpostia</a>
+    <address>
+        <h2>Sähköposti</h2>
+        <a href="mailto:kuusamon.kuppila@example.com">Lähetä sähköpostia</a>
+
+        <h2>Puhelinnumero</h2>
+        <p><a href="tel:0123456789">0123456789</a></p>
+
+        <h2>Osoite</h2>
+        <p>Kuusamontie 6, Kuusamo</p>
+    </address>
+
+    <hr>
 
     <h2>Miten onnistuimme?</h2>
 
-    <form>
-        <label for="palaute">Anna meille palautetta:</label>
-        <textarea name="palaute" id="palaute" required></textarea>
-        <br>
-        <label for="sahkoposti">Jätä meille sähköpostiosoitteesi:</label>
-        <input type="email" name="sahkoposti" id="sahkoposti" placeholder="elmeri.esimerkki@example.com">
-        <br>
-        <button type="submit">Lähetä palaute</button>
-    </form>
+        <form>
+
+                <label for="palaute">Anna meille palautetta:</label>
+                <textarea name="palaute" id="palaute" required></textarea>
+                <br>
+            <fieldset>
+                <legend>Yhteystietosi</legend>
+                <label for="sahkoposti">Jätä meille sähköpostiosoitteesi:</label>
+                <input type="email" name="sahkoposti" id="sahkoposti" placeholder="elmeri.esimerkki@example.com">
+                <br>
+                <label for="telnumero">Jätä meille puhelinnumerosi:</label>
+                <input type="tel" name="telnumero" id="telnumero" placeholder="Puhelinnumero">
+                <button type="submit">Lähetä palaute</button>
+            </fieldset>
+        </form>
 
     <h2>Kahvilan omistaja</h2>
     <figure>
